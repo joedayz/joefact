@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.quartz-scheduler.org/xml/job_scheduling_data_1_8.xsd" uri="www.quartz-scheduler.org/xml/job_scheduling_data_1_8.xsd"/>
+    <system systemId="http://jakarta.apache.org/log4j/" uri="logging.apache.org/log4j/index"/>
+    <system systemId="http://www.w3.org/2000/09/xmldsig" uri="www.w3.org/TR/2002/REC-xmldsig-core-20020212/Overview.html.xml"/>
+</catalog>

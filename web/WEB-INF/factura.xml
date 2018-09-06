@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <ds:Signature Id="20381396909">
+                    <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+                        <ds:Reference URI="">
+                            <ds:Transforms>
+                                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+                            </ds:Transforms>
+                            <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+                            <ds:DigestValue>s6UhK38A7k7q5LBdc/8afXm9O1E=</ds:DigestValue>
+                        </ds:Reference>
+                    </ds:SignedInfo>
+                    <ds:SignatureValue>
+                        hLo41tT6e2tuVtPwETlWyXXq73kNRtX3wQZRbxrEyPNH4ys+nQfc6nZHatCfNaDvIbj2HtA9cRxr
+                        cKhblENWlkSsr9SQaTNKBK06jqJYb0pnBs6H3+wYlY1pABtr4jBpHg/nUtIsYl7VY/cVGZAE0SVM
+                        wPistyfPImRmc0evxZGO2Ips+9zePrDhE540dMnm3Qb+IdhGqF2EqF4A/e89RMQBi/E4poaMrVcT
+                        d6DNOHnmLcSlADN3l+P3fNzjeGg3y44XwsjRgqyTGlrkYk3bEXK5UD9ORO+HLZHVmCRM8a0yz8oG
+                        a2uBtPgPdmnty/wQ/RcE7jc+4wsKHMZJZKPrnw==
+                    </ds:SignatureValue>
+                    <ds:KeyInfo>
+                        <ds:X509Data>
+                            <ds:X509Certificate>
+                                MIIFzzCCBLegAwIBAgIKPHfSuAAAAAA4PTANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCQ0gx
+                                EDAOBgNVBAoTB1dJU2VLZXkxIjAgBgNVBAsTGUNvcHlyaWdodCAyMDExIFdJU2VLZXkgU0ExFjAU
+                                BgNVBAsTDUludGVybmF0aW9uYWwxMTAvBgNVBAMTKFdJU2VLZXkgQ2VydGlmeUlEIEFkdmFuY2Vk
+                                IFNlcnZpY2VzIENBIDIwHhcNMTYwNjE1MjExOTEzWhcNMTkwNjE1MjExOTEzWjCB4zELMAkGA1UE
+                                BhMCUEUxDTALBgNVBAcTBExJTUExJzAlBgNVBAoTHklOVkVSU0lPTkVTIENPTUlORFVTVFJJQSBT
+                                LkEuQzEUMBIGA1UECxMLMjAzODEzOTY5MDkxETAPBgNVBAsTCDEwMjc2OTc0MSUwIwYDVQQLExxJ
+                                ZGVudGlkYWQgdmFsaWRhZGEgcG9yIEdSQU1EMScwJQYDVQQDEx5DQVJMT1MgQUxCRVJUTyBKQVZJ
+                                RVIgQ09MTEFaT1MxIzAhBgkqhkiG9w0BCQEWFGNhamF2aWVyQG11bHRpdG9wLnBlMIIBIjANBgkq
+                                hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvYDcz5pYSC8jpz6Hy7aSG7u0TuElSSOhdI2CY8Pi2vgZ
+                                YoKId/U2wMo09OuIQxI3YRTjkLCzRm7U3NkrCSLBdYycWQhCK3rNCqxyTnp399qd4qAaD+FrABFZ
+                                ZkpO8muOhdyrSAyvmcQEw4sHl87WiXitPdcJSeBy2jRvQR1XSXE4IXBBD0EBjj9ZXnRPQyy4tnes
+                                Ttb/XDsI3MfzfoXFICEW1mCq73fdTrRyMzflHBnYnyfoxKxgbq01ISLhq/+a0bpQidLPeVOxRz1P
+                                tIp9WBJIg2QsYhaGmbZadPXSB5jENeesic8lBR6D6HvHtYDBofJtnkXEHGwid/BtruQU9wIDAQAB
+                                o4IB1jCCAdIwHQYDVR0OBBYEFNK0LFzCIUZwVBnrQi/3xT2rDWK4MA4GA1UdDwEB/wQEAwIE8DAf
+                                BgNVHSMEGDAWgBTXLy/zCfFWIVMd50wuSERK2ob9mDA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8v
+                                cHVibGljLndpc2VrZXkuY29tL2NybC93Y2lkYXNjYTIuY3JsMG0GCCsGAQUFBwEBBGEwXzA3Bggr
+                                BgEFBQcwAoYraHR0cDovL3B1YmxpYy53aXNla2V5LmNvbS9jcnQvd2NpZGFzY2EyLmNydDAkBggr
+                                BgEFBQcwAYYYaHR0cDovL29jc3Aud2lzZWtleS5jb20vMDUGA1UdJQQuMCwGCCsGAQUFBwMCBgor
+                                BgEEAYI3CgMMBggrBgEFBQcDBAYKKwYBBAGCNxQCAjBDBgkrBgEEAYI3FQoENjA0MAoGCCsGAQUF
+                                BwMCMAwGCisGAQQBgjcKAwwwCgYIKwYBBQUHAwQwDAYKKwYBBAGCNxQCAjBEBgkqhkiG9w0BCQ8E
+                                NzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcw
+                                EQYJYIZIAYb4QgEBBAQDAgCgMA0GCSqGSIb3DQEBBQUAA4IBAQCX7oRoF0cl+k6jbmX3c4Ilxowz
+                                HxeoYZdytVjTJ5fAUDnklrYycNWyLncZ9XFXhICmxITaPLGT2CBptLi1nmTnLkq4Ey4TGGJOAlrn
+                                HcpfR2WZ6ZGrQx+SvYte/bJwVh3YdB7qlB1x6LHp6UUMy5yG4uV6kOfpihI+ib6df7PPJ8FlLiy6
+                                fiq31zCtPiMFbju3EuDziBTtwUFnHc9x1bpU24w0T9oF6ZDKjxj34lWglT1HcDlYLudTopPtMEmy
+                                H2Km4QjKS7LN6d38mcJKl3J+9llVCrMSSU5hjj47DTkJcKmKbP03YhV3II5AZZoAYtiF7fMcwE47
+                                SMnYduu9qkjv
+                            </ds:X509Certificate>
+                        </ds:X509Data>
+                    </ds:KeyInfo>
+                </ds:Signature>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <sac:AdditionalInformation>
+                    <sac:AdditionalMonetaryTotal>
+                        <cbc:ID>1001</cbc:ID>
+                        <cbc:PayableAmount currencyID="PEN">16195.00</cbc:PayableAmount>
+                    </sac:AdditionalMonetaryTotal>
+                </sac:AdditionalInformation>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>1.0</cbc:CustomizationID>
+    <cbc:ID>F001-00081567</cbc:ID>
+    <cbc:IssueDate>2016-10-03</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+    <cac:Signature>
+        <cbc:ID>20381396909</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20381396909</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>PRUEBA - COMINDUSTRIA SAC</cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>20381396909</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cbc:CustomerAssignedAccountID>20381396909</cbc:CustomerAssignedAccountID>
+        <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>PRUEBA - COMINDUSTRIA SAC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:ID></cbc:ID>
+                <cbc:StreetName>SEPARADORA INDUSTRIAL</cbc:StreetName>
+                <cbc:CityName>LIMA</cbc:CityName>
+                <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+                <cbc:District>ATE</cbc:District>
+                <cac:Country>
+                    <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>PRUEBA - COMINDUSTRIA SAC</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cbc:CustomerAssignedAccountID>20100127165</cbc:CustomerAssignedAccountID>
+        <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+        <cac:Party>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>PROCTER &amp; GAMBLE PERU S.R.L.</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cac:TaxScheme>
+                    <cbc:ID>1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:PayableAmount currencyID="PEN">19110.10</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>001</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="BX">80.000</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">10520.00</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">131.5000</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">10520.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+                <cbc:Percent>18.00</cbc:Percent>
+                <cac:TaxCategory>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cbc:TierRange>00</cbc:TierRange>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>ESPONJA VERDE (CAJA 2500 UNDS 7.5 CMS DE DIAMETRO)</cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>08EVCAA7</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">131.5000</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>002</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="BX">50.000</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">5675.00</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">113.5000</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">5675.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+                <cbc:Percent>18.00</cbc:Percent>
+                <cac:TaxCategory>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cbc:TierRange>00</cbc:TierRange>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>ESPONJA VERDE (CAJA 2000 UNDS 8.5 CMS DE DIAMETRO)</cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>08EVCAA3</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">113.5000</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <ds:Signature Id="20381396909">
+                    <ds:SignedInfo>
+                        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+                        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+                        <ds:Reference URI="">
+                            <ds:Transforms>
+                                <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+                            </ds:Transforms>
+                            <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+                            <ds:DigestValue>s6UhK38A7k7q5LBdc/8afXm9O1E=</ds:DigestValue>
+                        </ds:Reference>
+                    </ds:SignedInfo>
+                    <ds:SignatureValue>
+                        hLo41tT6e2tuVtPwETlWyXXq73kNRtX3wQZRbxrEyPNH4ys+nQfc6nZHatCfNaDvIbj2HtA9cRxr
+                        cKhblENWlkSsr9SQaTNKBK06jqJYb0pnBs6H3+wYlY1pABtr4jBpHg/nUtIsYl7VY/cVGZAE0SVM
+                        wPistyfPImRmc0evxZGO2Ips+9zePrDhE540dMnm3Qb+IdhGqF2EqF4A/e89RMQBi/E4poaMrVcT
+                        d6DNOHnmLcSlADN3l+P3fNzjeGg3y44XwsjRgqyTGlrkYk3bEXK5UD9ORO+HLZHVmCRM8a0yz8oG
+                        a2uBtPgPdmnty/wQ/RcE7jc+4wsKHMZJZKPrnw==
+                    </ds:SignatureValue>
+                    <ds:KeyInfo>
+                        <ds:X509Data>
+                            <ds:X509Certificate>
+                                MIIFzzCCBLegAwIBAgIKPHfSuAAAAAA4PTANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCQ0gx
+                                EDAOBgNVBAoTB1dJU2VLZXkxIjAgBgNVBAsTGUNvcHlyaWdodCAyMDExIFdJU2VLZXkgU0ExFjAU
+                                BgNVBAsTDUludGVybmF0aW9uYWwxMTAvBgNVBAMTKFdJU2VLZXkgQ2VydGlmeUlEIEFkdmFuY2Vk
+                                IFNlcnZpY2VzIENBIDIwHhcNMTYwNjE1MjExOTEzWhcNMTkwNjE1MjExOTEzWjCB4zELMAkGA1UE
+                                BhMCUEUxDTALBgNVBAcTBExJTUExJzAlBgNVBAoTHklOVkVSU0lPTkVTIENPTUlORFVTVFJJQSBT
+                                LkEuQzEUMBIGA1UECxMLMjAzODEzOTY5MDkxETAPBgNVBAsTCDEwMjc2OTc0MSUwIwYDVQQLExxJ
+                                ZGVudGlkYWQgdmFsaWRhZGEgcG9yIEdSQU1EMScwJQYDVQQDEx5DQVJMT1MgQUxCRVJUTyBKQVZJ
+                                RVIgQ09MTEFaT1MxIzAhBgkqhkiG9w0BCQEWFGNhamF2aWVyQG11bHRpdG9wLnBlMIIBIjANBgkq
+                                hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvYDcz5pYSC8jpz6Hy7aSG7u0TuElSSOhdI2CY8Pi2vgZ
+                                YoKId/U2wMo09OuIQxI3YRTjkLCzRm7U3NkrCSLBdYycWQhCK3rNCqxyTnp399qd4qAaD+FrABFZ
+                                ZkpO8muOhdyrSAyvmcQEw4sHl87WiXitPdcJSeBy2jRvQR1XSXE4IXBBD0EBjj9ZXnRPQyy4tnes
+                                Ttb/XDsI3MfzfoXFICEW1mCq73fdTrRyMzflHBnYnyfoxKxgbq01ISLhq/+a0bpQidLPeVOxRz1P
+                                tIp9WBJIg2QsYhaGmbZadPXSB5jENeesic8lBR6D6HvHtYDBofJtnkXEHGwid/BtruQU9wIDAQAB
+                                o4IB1jCCAdIwHQYDVR0OBBYEFNK0LFzCIUZwVBnrQi/3xT2rDWK4MA4GA1UdDwEB/wQEAwIE8DAf
+                                BgNVHSMEGDAWgBTXLy/zCfFWIVMd50wuSERK2ob9mDA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8v
+                                cHVibGljLndpc2VrZXkuY29tL2NybC93Y2lkYXNjYTIuY3JsMG0GCCsGAQUFBwEBBGEwXzA3Bggr
+                                BgEFBQcwAoYraHR0cDovL3B1YmxpYy53aXNla2V5LmNvbS9jcnQvd2NpZGFzY2EyLmNydDAkBggr
+                                BgEFBQcwAYYYaHR0cDovL29jc3Aud2lzZWtleS5jb20vMDUGA1UdJQQuMCwGCCsGAQUFBwMCBgor
+                                BgEEAYI3CgMMBggrBgEFBQcDBAYKKwYBBAGCNxQCAjBDBgkrBgEEAYI3FQoENjA0MAoGCCsGAQUF
+                                BwMCMAwGCisGAQQBgjcKAwwwCgYIKwYBBQUHAwQwDAYKKwYBBAGCNxQCAjBEBgkqhkiG9w0BCQ8E
+                                NzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcw
+                                EQYJYIZIAYb4QgEBBAQDAgCgMA0GCSqGSIb3DQEBBQUAA4IBAQCX7oRoF0cl+k6jbmX3c4Ilxowz
+                                HxeoYZdytVjTJ5fAUDnklrYycNWyLncZ9XFXhICmxITaPLGT2CBptLi1nmTnLkq4Ey4TGGJOAlrn
+                                HcpfR2WZ6ZGrQx+SvYte/bJwVh3YdB7qlB1x6LHp6UUMy5yG4uV6kOfpihI+ib6df7PPJ8FlLiy6
+                                fiq31zCtPiMFbju3EuDziBTtwUFnHc9x1bpU24w0T9oF6ZDKjxj34lWglT1HcDlYLudTopPtMEmy
+                                H2Km4QjKS7LN6d38mcJKl3J+9llVCrMSSU5hjj47DTkJcKmKbP03YhV3II5AZZoAYtiF7fMcwE47
+                                SMnYduu9qkjv
+                            </ds:X509Certificate>
+                        </ds:X509Data>
+                    </ds:KeyInfo>
+                </ds:Signature>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <sac:AdditionalInformation>
+                    <sac:AdditionalMonetaryTotal>
+                        <cbc:ID>1001</cbc:ID>
+                        <cbc:PayableAmount currencyID="PEN">16195.00</cbc:PayableAmount>
+                    </sac:AdditionalMonetaryTotal>
+                </sac:AdditionalInformation>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+    <cbc:CustomizationID>1.0</cbc:CustomizationID>
+    <cbc:ID>F001-00081567</cbc:ID>
+    <cbc:IssueDate>2016-10-03</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+    <cac:Signature>
+        <cbc:ID>20381396909</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20381396909</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>PRUEBA - COMINDUSTRIA SAC</cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>20381396909</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cbc:CustomerAssignedAccountID>20381396909</cbc:CustomerAssignedAccountID>
+        <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>PRUEBA - COMINDUSTRIA SAC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:ID></cbc:ID>
+                <cbc:StreetName>SEPARADORA INDUSTRIAL</cbc:StreetName>
+                <cbc:CityName>LIMA</cbc:CityName>
+                <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+                <cbc:District>ATE</cbc:District>
+                <cac:Country>
+                    <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>PRUEBA - COMINDUSTRIA SAC</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cbc:CustomerAssignedAccountID>20100127165</cbc:CustomerAssignedAccountID>
+        <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+        <cac:Party>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName>PROCTER &amp; GAMBLE PERU S.R.L.</cbc:RegistrationName>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cac:TaxScheme>
+                    <cbc:ID>1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:PayableAmount currencyID="PEN">19110.10</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>001</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="BX">80.000</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">10520.00</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">131.5000</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">10520.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+                <cbc:Percent>18.00</cbc:Percent>
+                <cac:TaxCategory>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cbc:TierRange>00</cbc:TierRange>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>ESPONJA VERDE (CAJA 2500 UNDS 7.5 CMS DE DIAMETRO)</cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>08EVCAA7</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">131.5000</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    <cac:InvoiceLine>
+        <cbc:ID>002</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="BX">50.000</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">5675.00</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">113.5000</cbc:PriceAmount>
+                <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">5675.00</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">2915.10</cbc:TaxAmount>
+                <cbc:Percent>18.00</cbc:Percent>
+                <cac:TaxCategory>
+                    <cbc:ID>VAT</cbc:ID>
+                    <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                    <cbc:TierRange>00</cbc:TierRange>
+                    <cac:TaxScheme>
+                        <cbc:ID>1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description>ESPONJA VERDE (CAJA 2000 UNDS 8.5 CMS DE DIAMETRO)</cbc:Description>
+            <cac:SellersItemIdentification>
+                <cbc:ID>08EVCAA3</cbc:ID>
+            </cac:SellersItemIdentification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">113.5000</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>

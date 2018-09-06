@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Local PC -->
+<Context path="/WSEnvioSunat">
+    <Resource name="jdbc/genxml" 
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="50"
+	maxIdle="30"
+	maxWait="10000"
+	username="gestionSunat"
+	password="certificado123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost/facturaelectronica"/>
+</Context>
+
+<!-- Cayman publico -->
+<!--Context path="/WSEnvioSunat">
+    <Resource name="jdbc/genxml" 
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="50"
+	maxIdle="30"
+	maxWait="10000"
+	username="gestionSunat"
+	password="certificado123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://168.121.239.245/facturaelectronica"/>
+</Context-->
+
+<!-- Cofaco Local Beta-->
+<!--Context path="/WSEnvioSunat">
+    <Resource name="jdbc/genxml" 
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="50"
+	maxIdle="30"
+	maxWait="10000"
+	username="gestionSunat"
+	password="certificado123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://192.168.150.51/facturaelectronica"/>
+</Context-->        
+
+<!-- Cofaco Local -->
+<!--Context path="/WSEnvioSunat">
+    <Resource name="jdbc/genxml" 
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="50"
+	maxIdle="30"
+	maxWait="10000"
+	username="gestionSunat"
+	password="certificado123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://192.168.150.50/facturaelectronica"/>
+</Context-->        
+        
+<!-- Cofaco Remoto -->
+<!--Context path="/WSEnvioSunat">
+    <Resource name="jdbc/genxml" 
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="50"
+	maxIdle="30"
+	maxWait="10000"
+	username="gestionSunat"
+	password="certificado123"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://167.249.9.201/facturaelectronica"/>
+</Context-->

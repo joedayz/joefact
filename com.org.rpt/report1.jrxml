@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ebf974d5-acc1-4be6-b8e6-3071c5a0a077">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="96"/>
+	<queryString>
+		<![CDATA[select hashcode, docu_codigo, barcode from cabecera where docu_codigo = 1]]>
+	</queryString>
+	<field name="hashcode" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="docu_codigo" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="barcode" class="java.lang.Object">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="112" y="2" width="100" height="20" uuid="2000b92e-bd49-46a5-8480-9b920f12e177"/>
+				<text><![CDATA[hashcode]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="243" y="2" width="100" height="20" uuid="a7a70873-8ca2-4867-a1d1-d4d5aad1f667"/>
+				<text><![CDATA[docu_codigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="2" width="100" height="20" uuid="331c5a5e-ae2c-43a8-b746-759e72180bf4"/>
+				<text><![CDATA[barcode]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="168" y="2" width="100" height="20" uuid="7115ebe0-9d39-4673-b479-63c16d4266e1"/>
+				<text><![CDATA[barcode]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="112" y="13" width="100" height="20" uuid="579bb1b0-11cc-4c81-b24c-f1ce9057ffa6"/>
+				<textFieldExpression><![CDATA[$F{hashcode}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="243" y="17" width="100" height="20" uuid="1c62f091-fdcf-48a9-9f5d-64efbc517207"/>
+				<textFieldExpression><![CDATA[$F{docu_codigo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="168" y="37" width="317" height="74" uuid="ebf318b2-ee6b-4069-8b2a-e0cd6ebdfeb7"/>
+				<textFieldExpression><![CDATA[$F{barcode}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
